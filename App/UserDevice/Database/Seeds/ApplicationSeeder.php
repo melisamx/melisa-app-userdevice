@@ -1,16 +1,14 @@
 <?php namespace App\UserDevice\Database\Seeds;
 
-use Illuminate\Database\Seeder;
-use Melisa\Laravel\Database\InstallApplication;
+use Melisa\Laravel\Database\InstallSeeder;
 
 /**
  * 
  *
  * @author Luis Josafat Heredia Contreras
  */
-class ApplicationSeeder extends Seeder
-{    
-    use InstallApplication;
+class ApplicationSeeder extends InstallSeeder
+{
     
     public function run()
     {
