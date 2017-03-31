@@ -42,7 +42,7 @@ class AssociateLogic
             
         }
         
-        if( !$this->emitEvent('device.associated', [
+        if( !$this->emitEvent('userdevice.device.associated', [
             'idIdentity'=>$input['idIdentity'],
             'idDevice'=>$input['idDevice'],
         ])) {
