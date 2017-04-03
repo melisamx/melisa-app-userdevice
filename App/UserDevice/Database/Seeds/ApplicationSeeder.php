@@ -17,7 +17,8 @@ class ApplicationSeeder extends InstallSeeder
             'name'=>'UserDevice',
             'description'=>'Application UserDevice',
             'nameSpace'=>'Melisa.userdevice',
-            'typeSecurity'=>'art'
+            'typeSecurity'=>'art',
+            'version'=>'1.1.0'
         ]);
         
     }
